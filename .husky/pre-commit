@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "🔍 Vérification du code avec ESLint avant le commit..."
+npx eslint --fix "src/**/*.{js,jsx,mjs,cjs}"
+
+if [ $? -ne 0 ]; then
+    echo "❌ Erreur : Corrige les erreurs ESLint avant de committer."
+    exit 1
+fi
+
+echo "✅ Tout est OK ! Vous pouvez committer."
