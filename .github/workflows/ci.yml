@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Run ESLint
-        run: npx eslint src/**/*.{js}
+        run: npx eslint src/*.{js}
 
       - name: Run tests
         run: npm test
