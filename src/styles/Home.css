@@ -1,0 +1,16 @@
+/* Styles pour la page d'accueil */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.home-container h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
