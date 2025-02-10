@@ -1,7 +1,12 @@
 import React from "react";
+import "./About.css";
 
 function About() {
-  return <h1>A propos de notre projet React SPA</h1>;
+  return (
+    <section className="about-container">
+      <h1>À propos de notre projet React SPA</h1>
+    </section>
+  );
 }
 
 export default About;

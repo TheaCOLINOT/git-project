@@ -1,0 +1,13 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.about-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 20px;
+}
