@@ -19,6 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer style="background-color: #222; color: white; text-align: center; padding: 10px;">
+        © 2024 Mon Projet - Tous droits réservés.
+      </footer>
+
     </div>
   );
 }
