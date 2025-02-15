@@ -64,7 +64,7 @@ function Contact() {
           />
         </div>
 
-        <button type="submit">Envoyer</button>
+        <button type="submit" class="bouton" >Envoyer</button>
       </form>
     </section>
   );
