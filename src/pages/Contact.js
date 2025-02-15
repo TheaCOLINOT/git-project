@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./styles/Contact.css";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -64,7 +65,7 @@ function Contact() {
           />
         </div>
 
-        <button type="submit">Envoyer</button>
+        <button type="submit" class="bouton" >Envoyer</button>
       </form>
     </section>
   );
