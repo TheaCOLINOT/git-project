@@ -2,12 +2,12 @@
 
 ## Comment contribuer ?
 1. Forkez le dépôt et clonez-le localement.
-2. Créez une branche** pour votre modification :
+2. Créez une branche pour votre modification :
    git checkout -b feature/nouvelle-fonctionnalite
 3. Faites vos modifications et committez-les avec un message clair :
    git commit -S -m "Ajout de [nom de la fonctionnalité]"
 4. Poussez votre branche :
-   git push origin feature/ma-fonctionnalite
+   git push origin feature/nouvelle-fonctionnalite
 Ouvrez une Issue et la lier à une Pull Request en expliquant votre contribution.
 
 ## Bonnes pratiques
