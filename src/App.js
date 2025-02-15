@@ -10,7 +10,7 @@ import "./styles/App.css";
 function App() {
   return (
     <Router>
-      {/* <Header /> */}
+      <Header />
       <h1>welcome to my app</h1>
       <Routes>
         <Route path="/" element={<Home />} />
